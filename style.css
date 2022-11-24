@@ -1,0 +1,300 @@
+body{
+    background: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    font-size: 1rem;   
+}
+.about{
+    margin: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    background-color: rgba(36, 54, 214, 0.829);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    padding: 1rem;
+    line-height: 40px;
+}
+@media screen and (max-width:768px) {
+    .about{
+        font-size: 1rem;
+    }
+}
+.academic__courses__item__title{
+    font-weight: bold;
+    font-size: 1rem;
+    text-shadow: 5px 5px 7px black; 
+}
+.academic__courses__box{
+    background-color: rgba(128, 128, 128, 0.901);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+.academic__courses__item__subtitle{
+    font-weight: bold;
+    text-shadow: 5px 5px 7px black; 
+    padding-top: 4px;
+}
+.academic__courses{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: space-around;
+}
+.academic__img{
+    height: 300px;
+    width: 350px;
+    margin: 1rem 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+}
+.academic__title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 5px 5px 7px black; 
+}
+@media screen and (max-width:768px) {
+    .academic__title{
+        font-size: 2rem;
+    }
+}
+.academic{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{  
+    height: auto;
+    background-color: rgba(91, 93, 105, 0.9);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+.experience__botao{
+    background-color: rgb(38, 48, 239);
+    color: white;
+    padding: .6rem;
+    border-radius: 5px;
+}
+.experience__botao:hover{
+    background-color: rgb(24, 30, 145);
+    cursor: pointer;
+}
+.experience__boton{
+    margin: 0 1rem;
+}
+.experience__img{
+    height: 500px;
+    width: 700px;
+}
+@media screen and (max-width:768px) {
+    .experience__img{
+        height: 200px;
+        width: 350px;
+    }
+    
+}
+.experience__info{
+    padding-bottom: 1rem;
+}
+.experience__section__title{
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 5px 5px 7px black; 
+
+}
+@media screen and (max-width:768px) {
+ .experience__section__title{
+    font-size: 2rem;
+ }   
+}
+.experience{
+    font-weight: bold;
+}
+.experiencie__box{
+    margin: 2rem auto;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    width: 720px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    
+}
+@media screen and (max-width:768px) {
+    .experiencie__box{
+        
+        width: 360px;
+    }
+    
+}
+.footer__rodape{
+    padding: 1rem;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(187, 186, 186);
+    color: rgb(52, 106, 241);
+    font-weight: bold;
+}
+.formcontato__botao{
+    background-color: rgb(64, 0, 255);
+    color: white;
+    border-radius: 5px;
+    padding: .7rem;
+}
+.formcontato__botao:hover{
+    cursor: pointer;
+    background-color: rgb(5, 5, 136);
+}
+.formcontato__input{
+    margin-top: 1rem;
+}
+.formcontato__subtext{
+    color: rgb(0, 94, 255);
+    text-shadow: 5px 5px 7px black; 
+}
+.formcontato__title{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 5px 5px 7px black; 
+}
+.formcontato{
+    background: url('/img/informatica-2.jpg');
+    margin: 2rem 6.2rem;
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+    .formcontato{
+        margin: 1rem 1rem;
+    }
+    
+}
+.menu__header{
+    width: 40%;
+    
+}
+.menu__list--item{
+    padding: 1rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 50, 59);
+    
+}
+.menu__list--item:hover{
+    cursor: pointer;
+    color: rgb(0, 94, 255);
+}
+.menu__list{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+}
+.menu__logo{
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+}
+.menu{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgb(191, 192, 206);
+    text-decoration-line:underline;
+    text-shadow: 5px 5px 7px rgb(55, 55, 108); 
+    justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+    .menu{
+        flex-direction: column;
+    }
+    
+}
+.skill__item{
+    height: 100px;
+    width: 100px;
+}
+.skills__box{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.skills__line{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills__title{
+    font-weight: bold; 
+    text-shadow: 5px 5px 7px black; 
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:768px) {
+    .skills__title{
+        font-size: 2rem;
+    }
+}
+.skills{
+    text-align: center;
+}
+.title__container{
+    width: 400px;
+    height: 110px;
+    font-size: 1.4rem;
+    padding: 1rem;
+    background-color: rgba(36, 54, 214, 0.829);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    background-size: auto;   
+}
+.title__div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.title__network--item{
+    display: flex;
+    
+}
+.title__network--logo{
+    width: 70px;
+    height: 70px;
+    margin: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    padding: 1rem;
+    background-color: rgba(251, 252, 253, 0.7);
+    border-radius: 10px; 
+
+}
+.title__network{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+.title__profile{
+    height: 500px;
+    border-radius: 100%;
+    margin: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+@media screen and (max-width:768px){
+    .title__profile{
+        height: 300px;
+    }
+    
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
